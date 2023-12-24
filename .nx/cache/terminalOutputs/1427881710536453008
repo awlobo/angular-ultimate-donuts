@@ -1,0 +1,624 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.20 MB |
+polyfills.js          | polyfills     | 316.96 kB |
+styles.css, styles.js | styles        | 211.14 kB |
+main.js               | main          |  51.99 kB |
+runtime.js            | runtime       |   6.53 kB |
+
+| Initial Total |   2.78 MB
+
+Build at: 2023-12-22T08:27:52.087Z - Hash: e1e8ccdce21e1a46 - Time: 3199ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 51.29 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:03:00.446Z - Hash: 4c1f4b78fffb1789 - Time: 1367ms
+
+Error: [96msrc/app/app.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-single' is not a known element:
+1. If 'donut-single' is an Angular component, then verify that it is part of this module.
+2. If 'donut-single' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m10[0m       <donut-single></donut-single>
+[7m  [0m [91m      ~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m9[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue at position 2 in the NgModule.imports of AppModule is not a reference
+  Value could not be determined statically.
+
+[7m9[0m   imports: [BrowserModule, AdminModule, Route],
+[7m [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.module.ts[0m:[93m9[0m:[93m41[0m
+    [7m9[0m   imports: [BrowserModule, AdminModule, Route],
+    [7m [0m [96m                                        ~~~~~[0m
+    Unknown reference.
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m9[0m:[93m41[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Route'.
+
+[7m9[0m   imports: [BrowserModule, AdminModule, Route],
+[7m [0m [91m                                        ~~~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.52 MB |
+main.js             | main    | 52.23 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:03:05.076Z - Hash: 25c5bdf48f022e13 - Time: 1264ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.23 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:03:36.299Z - Hash: 641a0ab755976135 - Time: 339ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.23 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:03:45.713Z - Hash: 1395b97d8fa396db - Time: 163ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.23 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:03:46.673Z - Hash: 440d4c954151d325 - Time: 142ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.23 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:03:55.231Z - Hash: f5434d482543881a - Time: 148ms
+
+✔ Compiled successfully.
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+<e> [webpack-dev-server] [HPM] Error occurred while proxying request localhost:4200/donuts to http://localhost:3000/ [ECONNREFUSED] (https://nodejs.org/api/errors.html#errors_common_system_errors)
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 51.47 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:04:50.916Z - Hash: cd58c8e43d2c4586 - Time: 427ms
+
+Error: [96msrc/app/app.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-single' is not a known element:
+1. If 'donut-single' is an Angular component, then verify that it is part of this module.
+2. If 'donut-single' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m10[0m       <donut-single></donut-single>
+[7m  [0m [91m      ~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue at position 2 in the NgModule.imports of AppModule is not a reference
+  Value is of type 'undefined'.
+
+[7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.for],
+[7m  [0m [91m           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m54[0m - [91merror[0m[90m TS2339: [0mProperty 'for' does not exist on type 'typeof RouterModule'.
+
+[7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.for],
+[7m  [0m [91m                                                     ~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 51.47 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:04:51.687Z - Hash: 61d728f79ca809d5 - Time: 142ms
+
+Error: [96msrc/app/app.component.ts[0m:[93m10[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-single' is not a known element:
+1. If 'donut-single' is an Angular component, then verify that it is part of this module.
+2. If 'donut-single' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.
+
+[7m10[0m       <donut-single></donut-single>
+[7m  [0m [91m      ~~~~~~~~~~~~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m41[0m - [91merror[0m[90m TS2322: [0mType '(routes: Routes, config?: ExtraOptions | undefined) => ModuleWithProviders<RouterModule>' is not assignable to type 'any[] | Type<any> | ModuleWithProviders<{}>'.
+
+[7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.forRoot],
+[7m  [0m [91m                                        ~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/app/app.module.ts[0m:[93m10[0m:[93m41[0m
+    [7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.forRoot],
+    [7m  [0m [96m                                        ~~~~~~~~~~~~~~~~~~~~[0m
+    Did you mean to call this expression?
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.24 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:04:52.939Z - Hash: ff89763c50e2a5d1 - Time: 130ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m54[0m - [91merror[0m[90m TS2554: [0mExpected 1-2 arguments, but got 0.
+
+[7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.forRoot()],
+[7m  [0m [91m                                                     ~~~~~~~~~[0m
+
+  [96mnode_modules/@angular/router/index.d.ts[0m:[93m3380[0m:[93m20[0m
+    [7m3380[0m     static forRoot(routes: Routes, config?: ExtraOptions): ModuleWithProviders<RouterModule>;
+    [7m    [0m [96m                   ~~~~~~~~~~~~~~[0m
+    An argument for 'routes' was not provided.
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.24 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:04:54.914Z - Hash: 21c171714bebbc3a - Time: 124ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m62[0m - [91merror[0m[90m TS2304: [0mCannot find name 'routes'.
+
+[7m10[0m   imports: [BrowserModule, AdminModule, RouterModule.forRoot(routes)],
+[7m  [0m [91m                                                             ~~~~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:05:28.447Z - Hash: cebef93397f3f204 - Time: 261ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:05:30.422Z - Hash: 736c37584a8c2cae - Time: 181ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:05:33.921Z - Hash: 6eab4fb1c9d4c4d0 - Time: 132ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m8[0m:[93m22[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Routes'.
+
+[7m8[0m export const routes: Routes = [];
+[7m [0m [91m                     ~~~~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:05:36.004Z - Hash: f8d943429f479851 - Time: 144ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:06:05.787Z - Hash: b14cbc6afa02791b - Time: 226ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.32 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:06:10.453Z - Hash: 3de19c774b5aee97 - Time: 160ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.33 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:06:13.346Z - Hash: e7ab42969365c5c5 - Time: 136ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS2322: [0mType '{ pat: any; }' is not assignable to type 'Route'.
+  Object literal may only specify known properties, but 'pat' does not exist in type 'Route'. Did you mean to write 'path'?
+
+[7m10[0m         pat
+[7m  [0m [91m        ~~~[0m
+
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m9[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'pat'. Either declare one or provide an initializer.
+
+[7m10[0m         pat
+[7m  [0m [91m        ~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.34 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:06:16.649Z - Hash: 7a98c468de8c6450 - Time: 136ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.35 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:06:21.743Z - Hash: b52e2d1d0d0e9698 - Time: 142ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m10[0m:[93m19[0m - [91merror[0m[90m TS2552: [0mCannot find name 'component'. Did you mean 'AppComponent'?
+
+[7m10[0m         path: '', component
+[7m  [0m [91m                  ~~~~~~~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  1.79 MB |
+main.js             | main    |  9.80 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:06:24.037Z - Hash: 9f832c2f9b2e46b5 - Time: 210ms
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js):
+SyntaxError: /Users/andreapix4d/repos/angular/angular-basics-seed/src/app/app.module.ts: Unexpected token (10:4)
+
+   8 |     {
+   9 |         path: '', component: 
+> 10 |     }
+     |     ^
+  11 | ];
+  12 | export class AppModule {
+  13 |     static { this.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); }; }
+
+Error: [96msrc/app/app.module.ts[0m:[93m11[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m11[0m     }
+[7m  [0m [91m    ~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.52 MB |
+main.js             | main    | 52.60 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:06:40.963Z - Hash: 733cdfa830e79558 - Time: 539ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.48 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:07:11.358Z - Hash: d9abde47a857d5e0 - Time: 614ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.48 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:07:17.569Z - Hash: 82c0d70525ec166a - Time: 186ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.49 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:07:46.853Z - Hash: 6dc7940fb339e8f4 - Time: 262ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.49 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:07:50.825Z - Hash: e2008e3494c32d3b - Time: 151ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m13[0m:[93m9[0m - [91merror[0m[90m TS18004: [0mNo value exists in scope for the shorthand property 'path'. Either declare one or provide an initializer.
+
+[7m13[0m         path
+[7m  [0m [91m        ~~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  1.79 MB |
+main.js             | main    |  9.79 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:07:52.204Z - Hash: 61053a6e00b48999 - Time: 185ms
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js):
+SyntaxError: /Users/andreapix4d/repos/angular/angular-basics-seed/src/app/app.module.ts: Unexpected token (13:4)
+
+  11 |     }, {
+  12 |         path: 
+> 13 |     }
+     |     ^
+  14 | ];
+  15 | export class AppModule {
+  16 |     static { this.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); }; }
+
+Error: [96msrc/app/app.module.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m     }
+[7m  [0m [91m    ~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.52 MB |
+main.js             | main    | 52.50 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:07:53.446Z - Hash: 911e898e8d6d5566 - Time: 323ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.50 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:07:55.241Z - Hash: 88f1ffab784a3e3f - Time: 153ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  1.79 MB |
+main.js             | main    |  9.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:07:59.435Z - Hash: edbef146c5279d23 - Time: 200ms
+
+./src/app/app.module.ts - Error: Module build failed (from ./node_modules/@angular-devkit/build-angular/src/babel/webpack-loader.js):
+SyntaxError: /Users/andreapix4d/repos/angular/angular-basics-seed/src/app/app.module.ts: Unexpected token (13:4)
+
+  11 |     }, {
+  12 |         path: 'donut', component: 
+> 13 |     }
+     |     ^
+  14 | ];
+  15 | export class AppModule {
+  16 |     static { this.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); }; }
+
+Error: [96msrc/app/app.module.ts[0m:[93m14[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m14[0m     }
+[7m  [0m [91m    ~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+vendor.js           | vendor  |  2.52 MB |
+main.js             | main    | 52.52 kB |
+runtime.js          | runtime |  6.53 kB |
+
+2 unchanged chunks
+
+Build at: 2023-12-22T13:08:01.205Z - Hash: c31e48488cba6718 - Time: 444ms
+
+Error: [96msrc/app/app.module.ts[0m:[93m13[0m:[93m35[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Don'.
+
+[7m13[0m         path: 'donut', component: Don
+[7m  [0m [91m                                  ~~~[0m
+
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:08:04.470Z - Hash: 8cc6c9de294f147d - Time: 248ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:08:05.264Z - Hash: 1edf7689e0819d17 - Time: 164ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:08:20.313Z - Hash: 90182e09438756a5 - Time: 203ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:08:21.454Z - Hash: 136b33ce6d980b03 - Time: 157ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 52.81 kB |
+runtime.js          | runtime |  6.53 kB |
+
+3 unchanged chunks
+
+Build at: 2023-12-22T13:08:21.623Z - Hash: a29159e4ddb3729f - Time: 142ms
+
+✔ Compiled successfully.

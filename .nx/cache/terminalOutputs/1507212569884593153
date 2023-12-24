@@ -1,0 +1,219 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m1.79 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m316.96 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m211.14 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m11.86 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m2.33 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:05:35.697Z[39m[37m[22m - Hash: [1m[37m2c03bd6ca1a4efc4[39m[37m[22m - Time: [1m[37m2852[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-list' is not a known element:[39m[22m
+[1m[31m1. If 'donut-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'donut-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <donut-list></donut-list>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.16 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:04.732Z[39m[37m[22m - Hash: [1m[37maf228be165f0616e[39m[37m[22m - Time: [1m[37m218[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/admin/admin.module.ts[0m:[93m14[0m:[93m3[0m - [91merror[0m[90m NG1010: [0mExpected array when reading the NgModule.exports of AdminModule[39m[22m
+[1m[31m  Value is a reference to 'exports'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m   exports[39m[22m
+[1m[31m[7m  [0m [91m  ~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@types/node/ts4.8/globals.d.ts[0m:[93m37[0m:[93m13[0m[39m[22m
+[1m[31m    [7m37[0m declare var exports: any;[39m[22m
+[1m[31m    [7m  [0m [96m            ~~~~~~~[0m[39m[22m
+[1m[31m    Reference is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-list' is not a known element:[39m[22m
+[1m[31m1. If 'donut-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'donut-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <donut-list></donut-list>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m28[0m - [91merror[0m[90m NG6002: [0m'AdminModule' does not appear to be an NgModule class.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   imports: [BrowserModule, AdminModule],[39m[22m
+[1m[31m[7m [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/admin/admin.module.ts[0m:[93m16[0m:[93m14[0m[39m[22m
+[1m[31m    [7m16[0m export class AdminModule { }[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Is it missing an @NgModule annotation?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.86 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:07.916Z[39m[37m[22m - Hash: [1m[37m61913c29802437e3[39m[37m[22m - Time: [1m[37m123[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-list' is not a known element:[39m[22m
+[1m[31m1. If 'donut-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'donut-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <donut-list></donut-list>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.17 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:15.136Z[39m[37m[22m - Hash: [1m[37m7fa0e79ba7b2e48c[39m[37m[22m - Time: [1m[37m109[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/admin/admin.module.ts[0m:[93m14[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue at position 0 in the NgModule.exports of AdminModule is not a reference[39m[22m
+[1m[31m  Value could not be determined statically.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m   exports: [[39m[22m
+[1m[31m[7m  [0m [91m           ~[0m[39m[22m
+[1m[31m[7m15[0m     Don[39m[22m
+[1m[31m[7m  [0m [91m~~~~~~~[0m[39m[22m
+[1m[31m[7m16[0m   ][39m[22m
+[1m[31m[7m  [0m [91m~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/admin/admin.module.ts[0m:[93m15[0m:[93m5[0m[39m[22m
+[1m[31m    [7m15[0m     Don[39m[22m
+[1m[31m    [7m  [0m [96m    ~~~[0m[39m[22m
+[1m[31m    Unknown reference.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/admin/admin.module.ts[0m:[93m15[0m:[93m5[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Don'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m15[0m     Don[39m[22m
+[1m[31m[7m  [0m [91m    ~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m12[0m:[93m7[0m - [91merror[0m[90m NG8001: [0m'donut-list' is not a known element:[39m[22m
+[1m[31m1. If 'donut-list' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'donut-list' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m12[0m       <donut-list></donut-list>[39m[22m
+[1m[31m[7m  [0m [91m      ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m28[0m - [91merror[0m[90m NG6002: [0m'AdminModule' does not appear to be an NgModule class.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   imports: [BrowserModule, AdminModule],[39m[22m
+[1m[31m[7m [0m [91m                           ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/admin/admin.module.ts[0m:[93m18[0m:[93m14[0m[39m[22m
+[1m[31m    [7m18[0m export class AdminModule { }[39m[22m
+[1m[31m    [7m  [0m [96m             ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Is it missing an @NgModule annotation?[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m12.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:16.550Z[39m[37m[22m - Hash: [1m[37mac07d72a42ec9cc8[39m[37m[22m - Time: [1m[37m173[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m12.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:16.792Z[39m[37m[22m - Hash: [1m[37mbe40f84a1f6a8fd2[39m[37m[22m - Time: [1m[37m147[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m12.23 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:18.012Z[39m[37m[22m - Hash: [1m[37mae8303c35931d0a0[39m[37m[22m - Time: [1m[37m105[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:07:25.851Z[39m[37m[22m - Hash: [1m[37mae8303c35931d0a0[39m[37m[22m - Time: [1m[37m115[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:08:24.039Z[39m[37m[22m - Hash: [1m[37m38e7c6decabbb3af[39m[37m[22m - Time: [1m[37m239[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:08:34.886Z[39m[37m[22m - Hash: [1m[37m724f642f0819cb13[39m[37m[22m - Time: [1m[37m150[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.35 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-29T12:08:35.069Z[39m[37m[22m - Hash: [1m[37m5ef87d1deee197e6[39m[37m[22m - Time: [1m[37m159[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

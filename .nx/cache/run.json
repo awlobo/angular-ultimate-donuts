@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve",
+    "startTime": "2023-12-22T13:08:36.149Z",
+    "endTime": "2023-12-24T11:26:41.099Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "angular-basics:serve:development",
+      "target": "serve",
+      "projectName": "angular-basics",
+      "hash": "9591512112895694647",
+      "startTime": "2023-12-22T13:08:36.153Z",
+      "endTime": "2023-12-24T11:26:41.095Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
