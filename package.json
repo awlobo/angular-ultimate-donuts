@@ -34,7 +34,7 @@
     "@schematics/angular": "~15.0.1",
     "@types/jasmine": "~4.0.0",
     "jasmine-core": "~4.1.0",
-    "json-server": "^0.17.0",
+    "json-server": "^0.17.4",
     "karma": "~6.4.1",
     "karma-chrome-launcher": "~3.1.1",
     "karma-coverage": "~2.2.1",
